@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/(auth)/layout.js", "app/layout.js", "components/convex-client-provider.jsx", "components/header.jsx", "middleware.js", "app/(auth)/sign-in/[[...sign-in]]/page.jsx", "app/(auth)/sign-up/[[...sing-up]]/page.jsx", "convex/auth.config.js", "app/page.jsx", "lib/utils.js"],
   "exclude": ["node_modules"]
 }
