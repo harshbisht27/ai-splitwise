@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 💸 AI Splitwise
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A smart and intuitive web app to split expenses among friends, powered by AI. Say goodbye to messy calculations and arguments over who owes what — let AI Splitwise handle it all.
+## ⚙️ Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Convex
 
-## Learn More
+Tailwind CSS	
 
-To learn more about Next.js, take a look at the following resources:
+Inngest	
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Shadcn UI	
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Gemini AI 
+## ✨ Features
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🧠 AI-Powered Input: Just describe your expenses in plain English — the AI understands and parses it into who owes whom.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔗 Expense Splitting: Automatically calculates and displays the exact amount each person owes.
+
+📱 Responsive Design: Works seamlessly across desktops, tablets, and smartphones.
+
+⚡ Fast & Intuitive UI: Built with modern web technologies for smooth user experience.
+
+🔗 Real-time Expense Splitting: Live sync across users using Convex database.
+
+
+📦 Serverless Functions: Background tasks handled by Inngest to scale effortlessly.
+
+🚀 Full Stack with Next.js: End-to-end application using the App Router and latest Next.js features.
+
+
